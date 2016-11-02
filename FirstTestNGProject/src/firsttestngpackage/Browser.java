@@ -10,6 +10,7 @@ public class Browser {
 	public static WebDriver getChromeDriver()
 	{
 		//test
+		//another test
 		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDrivers\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
 		 driver.get("google.com");
